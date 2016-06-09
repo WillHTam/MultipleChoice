@@ -1,0 +1,42 @@
+body{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+h3{
+  flex:1;
+  font-size: 30px;
+}
+
+h2{
+  flex:1;
+
+}
+
+h1{
+  flex:1;
+  font-size: 35px;
+
+}
+
+#menu{
+  flex:1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+button{
+  margin-left: 3px;
+  margin-right: 3px;
+  font-size: 30px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+button:hover {
+  background-color: thistle;
+}
